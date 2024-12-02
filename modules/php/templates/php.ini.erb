@@ -1,0 +1,12 @@
+; Configuración básica de PHP
+[PHP]
+max_execution_time = 300
+memory_limit = 256M
+post_max_size = 100M
+upload_max_filesize = 50M
+date.timezone = <%= @timezone %>
+
+; Additional configuration if necessary
+display_errors = Off
+log_errors = On
+error_log = /var/log/php_errors.log
